@@ -13,8 +13,8 @@ const styles = StyleSheet.create({
   container: {
     width: 50,
     height: 50,
-    borderRadius: 30, // Half of width and height to create a circle
-    backgroundColor: '#F0F0F0', // Light gray background color
+    borderRadius: 30, 
+    backgroundColor: '#F0F0F0', 
     justifyContent: 'center',
     alignItems: 'center',
     margin: 5,

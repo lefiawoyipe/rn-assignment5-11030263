@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { View, Switch, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { ThemeContext } from '../ThemeContext'; // Adjust the import path based on your file structure
+import { ThemeContext } from '../ThemeContext'; 
 
 const SettingsScreen = () => {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 18,
-    color: 'black', // iOS style blue color
+    color: 'black', 
   },
   darkModeContainer: {
     flexDirection: 'row',
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   darkModeText: {
     fontSize: 18,
     marginRight: 10,
-    color: '#ffffff', // Text color for dark mode
+    color: '#ffffff', 
   },
 });
 

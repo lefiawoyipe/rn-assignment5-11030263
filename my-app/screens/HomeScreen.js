@@ -1,8 +1,8 @@
-// HomeScreen.js (example of consuming ThemeContext)
+
 import React, { useContext } from 'react';
 import { ScrollView, View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
-import { ThemeContext } from '../ThemeContext'; // Adjust the import path based on your file structure
-import CircularImage from './CircularImage'; // Import the CircularImage component
+import { ThemeContext } from '../ThemeContext'; 
+import CircularImage from './CircularImage'; 
 
 const HomeScreen = ({ navigation }) => {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
   },
   cardContainer: {
     alignItems: 'center',
-    marginBottom: 20, // Adds some bottom margin for separation
+    marginBottom: 20, 
   },
   cardImage: {
     width: 250,
@@ -188,9 +188,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   actionText: {
-    fontSize: 14, // Reduced font size for action text
-    marginTop: 5, // Added margin top for separation from image
-    textAlign: 'center', // Center text horizontally
+    fontSize: 14, 
+    marginTop: 5, 
+    textAlign: 'center', 
   },
   transactionContainer: {
     marginTop: 20,
@@ -212,8 +212,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     paddingHorizontal: 10,
     paddingVertical: 10,
-    backgroundColor: '#f0f0f0', // Background color for each transaction item
-    borderRadius: 8, // Rounded corners
+    backgroundColor: '#f0f0f0', 
+    borderRadius: 8, 
   },
   transactionTextContainer: {
     flex: 1,
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   sellAllButtonText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#007AFF', // iOS style blue color
+    color: '#007AFF', 
   },
   buttonContainer: {
     flexDirection: 'row',
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     paddingHorizontal: 20,
-    marginBottom: 20, // Add margin bottom to separate from other content
+    marginBottom: 20, 
   },
   button: {
     alignItems: 'center',
